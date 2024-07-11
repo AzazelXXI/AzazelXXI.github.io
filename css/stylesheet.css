@@ -2,7 +2,11 @@ body {
     margin: 0 auto;
     background-position: #009900;
     background-size: contain;
-    background-color: black;
+    background-color: white;
+}
+
+p {
+    text-align: justify;
 }
 
 .menu {
@@ -19,7 +23,7 @@ body {
 
 .menu a {
     margin: 0px 20px 0px 20px;
-    color: white;
+    color: black;
     padding: 10px 16px;
     text-decoration: none;
     font-size: 20px;
