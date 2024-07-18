@@ -1,3 +1,3 @@
 main:
-	@clear
+	@cls
 	@node js/index.js
