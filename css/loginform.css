@@ -2,5 +2,10 @@ body {
     background-color: #dcdcdc;
     text-align: center;
     position: relative;
-    top: 500px;
+    top: 400px;
+}
+
+.loginForm {
+    background-color: white;
+    border-width: 10px;
 }
