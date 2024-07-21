@@ -7,5 +7,16 @@ body {
 
 .loginForm {
     background-color: white;
-    border-width: 10px;
+    border-radius: 15px;
+    width: 583px;
+    height: 675px;
+    margin: -220px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginForm .form-remember {
+    margin-right: 77px;
 }
