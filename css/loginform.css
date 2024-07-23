@@ -2,14 +2,14 @@ body {
     background-color: #dcdcdc;
     text-align: center;
     position: relative;
-    top: 400px;
+    top: 320px;
 }
 
-.loginForm {
+.input-form {
     background-color: white;
     border-radius: 15px;
-    width: 583px;
-    height: 675px;
+    width: 483px;
+    height: 575px;
     margin: -220px auto;
     display: flex;
     flex-direction: column;
@@ -17,6 +17,6 @@ body {
     align-items: center;
 }
 
-.loginForm .form-remember {
-    margin-right: 77px;
+.input-form .remember-form {
+    /* margin-right: 77px; */
 }
