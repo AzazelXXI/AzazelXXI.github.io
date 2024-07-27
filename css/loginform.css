@@ -5,6 +5,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    min-height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
     
 }
@@ -13,7 +15,7 @@ body {
     background-color: white;
     border-radius: 15px;
     width: 583px;
-    height: 675;
+    height: 675px;
     flex-direction: column;
     display: flex;
     justify-content: center;
@@ -22,7 +24,7 @@ body {
 
 .input-form .input-box {
     position: relative;
-    width: 273px;
+    width: 373px;
     height: 44px;
 }
 
@@ -52,4 +54,9 @@ body {
     left: 10px;
     transform: translateY(-40px);
     font-size: 30px;
+}
+
+.input-form .remember-form {
+    display: flex;
+    justify-content: space-between;
 }
