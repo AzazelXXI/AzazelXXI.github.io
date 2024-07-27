@@ -1,16 +1,19 @@
 body {
     background-color: #dcdcdc;
-    text-align: center;
-    position: relative;
-    top: 320px;
+    margin: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 .input-form {
     background-color: white;
     border-radius: 15px;
-    width: 483px;
-    height: 575px;
-    margin: -220px auto;
+    width: 583px;
+    height: 675;
     flex-direction: column;
     display: flex;
     justify-content: center;
