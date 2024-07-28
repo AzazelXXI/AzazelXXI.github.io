@@ -8,14 +8,13 @@ body {
     text-align: center;
     min-height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
-    
 }
 
 .input-form {
     background-color: white;
     border-radius: 15px;
-    width: 583px;
-    height: 675px;
+    width: 483px;
+    height: 575px;
     flex-direction: column;
     display: flex;
     justify-content: center;
@@ -24,20 +23,20 @@ body {
 
 .input-form .input-box {
     position: relative;
-    width: 373px;
-    height: 44px;
+    width: 350px;
+    height: 50px;
 }
 
 .input-box input::placeholder {
     font-size: 20px;
-    padding-left: 40px;
+    padding-left: 10px;
     text-indent: 0;
 }
 
 .input-form .logo {
     width: 279px;
     height: 279px;
-    object-position: center -50px;
+    margin-top: -10%;
 }
 
 .input-box input {
@@ -46,17 +45,51 @@ body {
     border: 2px solid;
     border-radius: 5px;
     font-size: 20px;
-    text-indent: 40px;
+    text-indent: 10px;
 }
 
 .input-box i {
-    position: absolute;
-    left: 10px;
-    transform: translateY(-40px);
+    position: relative;
+    left: -59%;
+    transform: translateY(-145%);
     font-size: 30px;
 }
 
 .input-form .remember-form {
     display: flex;
     justify-content: space-between;
+    width: 74%;
+    font-size: 20px;
+    margin-top: 10px;
+    font-size: 100%;
+}
+
+.remember-form a {
+    text-decoration: none;
+    color: black;
+}
+
+.remember-form a:hover {
+    text-decoration: underline;
+}
+
+.input-form .submit-button {
+    width: 120px;
+    height: 44px;
+    background: #03B0D7;
+    color: white;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    font-size: 21px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.input-form .register-url a {
+    text-decoration: none;
+    color: black;
+}
+
+.input-form .register-url a:hover {
+    text-decoration: underline;
 }
