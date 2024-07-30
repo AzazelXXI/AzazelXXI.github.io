@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.home-navbar {
+    margin: 0;
+    text-align: center;
+    background-color: #D9D9D9;
+    font-size: 24px;
+    text-decoration: none;
+    padding: 14px 16px;
+    word-spacing: 80px;
+}
+
+
+.home-navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+.home-navbar a:hover {
+    text-decoration: underline;
+}
